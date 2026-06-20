@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Brand Cinematic",
+    "category": "Ads",
+    "thumbnail": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=600&h=400&fit=crop",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4",
+    "description": "A premium brand film showcasing luxury automotive with cinematic color grading and dynamic motion graphics.",
+    "tools": ["After Effects", "Premiere Pro", "DaVinci Resolve"]
+  },
+  {
+    "id": 2,
+    "title": "Social Media Reel",
+    "category": "Reels",
+    "thumbnail": "https://images.unsplash.com/photo-1533391304ab2ca41d78d900652b7f1a2?w=600&h=400&fit=crop",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4",
+    "description": "Fast-paced Instagram reel with trending effects, smooth transitions, and engaging visual storytelling.",
+    "tools": ["Premiere Pro", "After Effects"]
+  },
+  {
+    "id": 3,
+    "title": "Motion Graphics Intro",
+    "category": "Motion Graphics",
+    "thumbnail": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4",
+    "description": "Sleek animated intro with 3D elements, particle effects, and custom typography animations.",
+    "tools": ["After Effects", "Cinema 4D"]
+  },
+  {
+    "id": 4,
+    "title": "YouTube Tutorial Edit",
+    "category": "YouTube",
+    "thumbnail": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4",
+    "description": "Engaging YouTube tutorial with B-roll integration, smooth cuts, and clear text overlays for educational content.",
+    "tools": ["Premiere Pro", "After Effects"]
+  },
+  {
+    "id": 5,
+    "title": "Product Showcase",
+    "category": "Ads",
+    "thumbnail": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4",
+    "description": "Professional product video with 360° rotation, lighting effects, and premium transitions.",
+    "tools": ["Blender", "Premiere Pro", "After Effects"]
+  },
+  {
+    "id": 6,
+    "title": "Corporate Event Highlights",
+    "category": "YouTube",
+    "thumbnail": "https://images.unsplash.com/photo-1533391304ab2ca41d78d900652b7f1a2?w=600&h=400&fit=crop",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-library/sample/BigBuckBunny.mp4",
+    "description": "Dynamic event recap with multiple camera angles, synchronized music, and cinematic color grading.",
+    "tools": ["Premiere Pro", "DaVinci Resolve"]
+  }
+]
