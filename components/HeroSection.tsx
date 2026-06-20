@@ -10,7 +10,7 @@ export default function HeroSection() {
     <section id="home" className="relative min-h-screen w-full flex items-center justify-center overflow-hidden pt-20">
       {/* Animated background gradient */}
       <motion.div
-        className="absolute inset-0 bg-gradient-to-b from-blue-900/20 via-black to-black"
+        className="absolute inset-0 bg-linear-to-b from-blue-900/20 via-black to-black"
         animate={{
           backgroundPosition: ['0% 0%', '100% 100%'],
         }}
@@ -117,7 +117,7 @@ export default function HeroSection() {
                 className="w-full h-full object-cover"
               />
               {/* Glassmorphism overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-black/20" />
               
               {/* Floating badge */}
               <motion.div

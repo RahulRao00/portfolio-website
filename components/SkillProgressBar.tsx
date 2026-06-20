@@ -34,7 +34,7 @@ export function SkillProgressBar({ name, percentage, category }: SkillProgressBa
 
       <div className="relative h-2 bg-gray-700/40 rounded-full overflow-hidden border border-blue-400/20">
         <motion.div
-          className="h-full bg-gradient-to-r from-blue-400 via-purple-400 to-blue-500 rounded-full"
+          className="h-full bg-linear-to-r from-blue-400 via-purple-400 to-blue-500 rounded-full"
           initial={{ width: 0 }}
           whileInView={{ width: `${percentage}%` }}
           transition={{ duration: 1.2, ease: 'easeOut', delay: 0.1 }}

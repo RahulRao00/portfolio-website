@@ -129,11 +129,11 @@ export default function PortfolioGrid() {
                   className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-700"
                 />
                 {/* Shimmer overlay */}
-                <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/5 to-white/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+                <div className="absolute inset-0 bg-linear-to-r from-white/0 via-white/5 to-white/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
                 
                 {/* Content Overlay */}
                 <motion.div
-                  className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-end justify-end p-4"
+                  className="absolute inset-0 bg-linear-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-end justify-end p-4"
                   initial={{ opacity: 0 }}
                   whileHover={{ opacity: 1 }}
                 >

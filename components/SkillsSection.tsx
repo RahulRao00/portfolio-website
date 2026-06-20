@@ -91,7 +91,7 @@ export default function SkillsSection() {
                     transition={{ duration: 0.3, delay: idx * 0.05 }}
                     whileHover={{ scale: 1.15, y: -2 }}
                     viewport={{ once: true }}
-                    className="px-4 py-2 bg-gradient-to-r from-blue-500/30 to-blue-400/20 text-blue-300 rounded-lg text-sm font-medium cursor-default transition-all border border-blue-400/30 hover:border-blue-300/60 font-space-grotesk"
+                    className="px-4 py-2 bg-linear-to-r from-blue-500/30 to-blue-400/20 text-blue-300 rounded-lg text-sm font-medium cursor-default transition-all border border-blue-400/30 hover:border-blue-300/60 font-space-grotesk"
                   >
                     {skill}
                   </motion.span>

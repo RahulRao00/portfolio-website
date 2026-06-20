@@ -90,7 +90,7 @@ export default function Testimonials() {
             >
               {/* Animated glow background */}
               <motion.div
-                className="absolute -inset-96 bg-gradient-to-r from-blue-500/10 to-blue-400/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                className="absolute -inset-96 bg-linear-to-r from-blue-500/10 to-blue-400/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 animate={{ rotate: 360 }}
                 transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
               />
@@ -112,7 +112,7 @@ export default function Testimonials() {
                 </div>
 
                 {/* Quote */}
-                <p className="text-gray-300 mb-6 flex-grow text-pretty italic font-dm-sans">&ldquo;{testimonial.content}&rdquo;</p>
+                <p className="text-gray-300 mb-6 grow text-pretty italic font-dm-sans">&ldquo;{testimonial.content}&rdquo;</p>
 
                 {/* Author */}
                 <div>

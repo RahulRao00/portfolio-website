@@ -51,7 +51,7 @@ export default function ContactSection() {
   }
 
   return (
-    <section id="contact" className="relative py-20 px-6 bg-gradient-to-b from-background via-slate-950 to-background">
+    <section id="contact" className="relative py-20 px-6 bg-linear-to-b from-background via-slate-950 to-background">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <motion.div

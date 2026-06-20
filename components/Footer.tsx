@@ -56,7 +56,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className="relative bg-gradient-to-b from-black/0 via-black/30 to-black/80 border-t border-blue-400/10 backdrop-blur-md">
+    <footer className="relative bg-linear-to-b from-black/0 via-black/30 to-black/80 border-t border-blue-400/10 backdrop-blur-md">
       {/* Floating background element */}
       <motion.div
         className="absolute -top-40 -right-40 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl"
@@ -80,7 +80,7 @@ export default function Footer() {
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="text-3xl font-heading font-bold bg-gradient-to-r from-white to-blue-300 bg-clip-text text-transparent mb-4"
+              className="text-3xl font-heading font-bold bg-linear-to-r from-white to-blue-300 bg-clip-text text-transparent mb-4"
             >
               GK
             </motion.h2>
@@ -149,7 +149,7 @@ export default function Footer() {
 
         {/* Divider */}
         <motion.div
-          className="h-px bg-gradient-to-r from-transparent via-blue-400/30 to-transparent mb-16"
+          className="h-px bg-linear-to-r from-transparent via-blue-400/30 to-transparent mb-16"
           initial={{ scaleX: 0 }}
           whileInView={{ scaleX: 1 }}
           transition={{ duration: 0.8 }}
@@ -204,7 +204,7 @@ export default function Footer() {
 
         {/* Divider */}
         <motion.div
-          className="h-px bg-gradient-to-r from-transparent via-blue-400/30 to-transparent mb-12"
+          className="h-px bg-linear-to-r from-transparent via-blue-400/30 to-transparent mb-12"
           initial={{ scaleX: 0 }}
           whileInView={{ scaleX: 1 }}
           transition={{ duration: 0.8 }}

@@ -48,7 +48,7 @@ export default function ServicesSection() {
   }
 
   return (
-    <section id="services" className="relative py-20 px-6 bg-gradient-to-b from-background via-slate-950 to-background">
+    <section id="services" className="relative py-20 px-6 bg-linear-to-b from-background via-slate-950 to-background">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <motion.div
@@ -95,7 +95,7 @@ export default function ServicesSection() {
                 whileHover={{ scale: 1.2, rotateZ: 10 }}
                 animate={{ y: [0, -5, 0] }}
                 transition={{ duration: 3, repeat: Infinity, delay: i * 0.2 }}
-                className="mb-6 w-16 h-16 rounded-lg bg-gradient-to-br from-blue-500/20 to-blue-400/10 flex items-center justify-center"
+                className="mb-6 w-16 h-16 rounded-lg bg-linear-to-br from-blue-500/20 to-blue-400/10 flex items-center justify-center"
               >
                 <service.icon className="w-8 h-8 text-blue-400" />
               </motion.div>
@@ -140,7 +140,7 @@ export default function ServicesSection() {
                 viewport={{ once: true }}
                 className="relative p-6 rounded-2xl glass-dark border border-blue-400/10 hover:border-blue-400/40 transition-all duration-300"
               >
-                <div className="text-7xl font-heading font-bold bg-gradient-to-br from-blue-500/20 to-blue-400/10 bg-clip-text text-transparent mb-4">{item.step}</div>
+                <div className="text-7xl font-heading font-bold bg-linear-to-br from-blue-500/20 to-blue-400/10 bg-clip-text text-transparent mb-4">{item.step}</div>
                 <h4 className="text-xl font-semibold text-white mb-2 font-heading">{item.title}</h4>
                 <p className="text-gray-400 text-sm leading-relaxed font-dm-sans">{item.desc}</p>
                 {i < 3 && (

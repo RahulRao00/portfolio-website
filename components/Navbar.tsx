@@ -30,7 +30,7 @@ export default function Navbar() {
           href="#home"
           onClick={(event) => scrollToSection(event, 'home')}
           whileHover={{ scale: 1.08 }}
-          className="text-2xl font-heading font-bold bg-gradient-to-r from-white to-blue-300 bg-clip-text text-transparent cursor-pointer"
+          className="text-2xl font-heading font-bold bg-linear-to-r from-white to-blue-300 bg-clip-text text-transparent cursor-pointer"
           aria-label="VS Portfolio - Home"
         >
           GK
