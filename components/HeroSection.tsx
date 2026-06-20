@@ -144,7 +144,7 @@ export default function HeroSection() {
             className="flex flex-col items-center"
           >
             <span className="text-sm text-gray-400 mb-2 font-space-grotesk">Scroll to explore</span>
-            <div className="w-[2px] h-8 bg-gradient-to-b from-blue-400 via-blue-300 to-transparent glow" />
+            <div className="w-0.5 h-8 bg-linear-to-b from-blue-400 via-blue-300 to-transparent glow" />
           </motion.div>
         </motion.div>
       </ParallaxSection>

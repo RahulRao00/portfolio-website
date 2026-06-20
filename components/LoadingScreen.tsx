@@ -20,7 +20,7 @@ export function LoadingScreen() {
       initial={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.8, delay: 2.2 }}
-      className="fixed inset-0 z-50 bg-gradient-to-b from-black via-slate-900 to-black flex items-center justify-center"
+      className="fixed inset-0 z-50 bg-linear-to-b from-black via-slate-900 to-black flex items-center justify-center"
     >
       {/* Background animated orbs */}
       <div className="absolute inset-0 overflow-hidden">
@@ -56,7 +56,7 @@ export function LoadingScreen() {
               transition={{ duration: 3, repeat: Infinity, ease: 'linear' }}
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-3xl font-heading font-bold bg-gradient-to-r from-white to-blue-300 bg-clip-text text-transparent">
+              <span className="text-3xl font-heading font-bold bg-linear-to-r from-white to-blue-300 bg-clip-text text-transparent">
                 VS
               </span>
             </div>
@@ -86,7 +86,7 @@ export function LoadingScreen() {
             initial={{ width: '0%' }}
             animate={{ width: '100%' }}
             transition={{ duration: 2.2, ease: 'easeInOut' }}
-            className="h-full bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 rounded-full"
+            className="h-full bg-linear-to-r from-blue-400 via-blue-500 to-blue-600 rounded-full"
           />
         </motion.div>
 
