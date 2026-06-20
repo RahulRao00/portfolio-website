@@ -57,7 +57,7 @@ export function LoadingScreen() {
             />
             <div className="absolute inset-0 flex items-center justify-center">
               <span className="text-3xl font-heading font-bold bg-linear-to-r from-white to-blue-300 bg-clip-text text-transparent">
-                VS
+                GK
               </span>
             </div>
           </div>
