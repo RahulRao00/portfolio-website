@@ -19,7 +19,7 @@ const experiences: ExperienceItem[] = [
   {
     id: 1,
     title: 'Video Editor',
-    company: 'Creative Studios',
+    company: 'StarAndDaisy',
     duration: '1 year Experience',
     description: [
       'Motion graphics artists in producing high-quality content for major brands.',
